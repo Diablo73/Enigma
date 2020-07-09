@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enigma</title>
+<link rel="shortcut icon" href="images/logo2.png" />
+<link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+
+	<header style="text-align: center;">
+		<input type="image" src="images/logo1.png" class="headlogol">
+		<input type="image" src="images/name1.png" class="headpic"> <input
+			type="image" src="images/logo1.png" class="headlogor"
+			style="transform: scaleX(-1)";>
+	</header>
+	<p class="heading">Enigma</p>
+	<p class="name">- by &nbsp; Ashul Gupta</p>
+	<h2></h2>
+
+	<div
+		style="text-align: left; width: 35%; display: inline-block; padding: 10px;">
+		<textarea name="textbox"
+			placeholder="Type text to be encrypted here......." id="entb"
+			style="font-size: 20px; width: 90%; height: 580px; margin-left: 20px; text-align: justify;"></textarea>
+	</div>
+
+	<div
+		style="text-align: center; width: 25%; display: inline-block; vertical-align: top;">
+		<div style="vertical-align: top;" class="crypt" onclick="encrypt()">
+			<svg width="120" height="120">
+    <path
+					d="M   0  40
+             L  60  40
+             L  60  10
+             L 120  60
+             L  60 110
+			 L  60  80
+			 L   0  80
+			 L   0  10
+             Z"
+					fill="#000000" />
+  
+    <text x="55" y="60" fill="#FFFFFF" text-anchor="middle"
+					alignment-baseline="middle" class="crytext">ENCRYPT</text>
+</svg>
+		</div>
+		<div class="pass">
+			<label for="key">Key &ensp;</label> <input type="text" id="key"
+				class="inp" placeholder="Password"
+				style="width: 200px; height: 30px; font-family: calibri; font-size: 24px;">
+		</div>
+
+		<div id="slidecontainer">
+			<input type="range" min="0" max="3" value="1" class="slider"
+				id="myRange">
+			<p id="ver"></p>
+		</div>
+
+		<div style="vertical-align: bottom;" class="crypt" onclick="decrypt()">
+			<svg width="120" height="120">
+    <path
+					d="M 120  40
+             L  60  40
+             L  60  10
+             L   0  60
+             L  60 110
+			 L  60  80
+			 L 120  80
+			 L 120  10
+             Z"
+					fill="#000000" />
+  
+    <text x="65" y="60" fill="#FFFFFF" text-anchor="middle"
+					alignment-baseline="middle" class="crytext">DECRYPT</text>
+</svg>
+		</div>
+	</div>
+
+	<div style="text-align: right; width: 35%; display: inline-block;">
+		<textarea name="textbox"
+			placeholder="Type text to be decrypted here......." id="detb"
+			style="font-size: 20px; width: 90%; height: 580px; text-align: justify;"></textarea>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div style="text-align: left; display: inline-block;">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRm9dAVhWqlJMTWi9PjdY1IFNSLHb0tx4dXNVSJveHRF2L5A/viewform?embedded=true" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div> 
+  <div style="display: inline-block; padding-left: 250px;">
+  <p class="donate">Donate via</p>
+  <input type="image" src="images/paytm.png" class="pay"><br><br>
+  <input type="image" src="images/gpay.png" class="pay"> 
+  </div>
+  
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eebbbc7f9d77cc6"></script>
+	<script src="js.js"></script>
+</body>
+</html>

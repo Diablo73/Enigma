@@ -1,0 +1,136 @@
+header {
+	background: rgb(0,0,0);
+	background: -moz-radial-gradient(circle, rgba(0,0,0,1) 18%, rgba(18,18,18,1) 50%, rgba(38,38,38,1) 82%);
+	background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 18%, rgba(18,18,18,1) 50%, rgba(38,38,38,1) 82%);
+	background: radial-gradient(circle, rgba(0,0,0,1) 18%, rgba(18,18,18,1) 50%, rgba(38,38,38,1) 82%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#262626",GradientType=1);
+	border-radius: 100px;
+}
+
+.headpic {
+	display: inline-block;
+	width: 16%;
+}
+.headlogol {
+	display: inline-block;
+	width: 8%;															/* 8% = logo1 | 15% = logo4*/
+}
+.headlogor {
+	display: inline-block;
+	width: 8%;															/* 8% = logo1 | 15% = logo4*/
+}
+
+.pay {
+	display: inline-block;
+	width: 200px;
+}
+
+body{
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(38,38,38,1) 33%, rgba(34,34,34,1) 50%, rgba(38,38,38,1) 66%, rgba(0,0,0,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(38,38,38,1) 33%, rgba(34,34,34,1) 50%, rgba(38,38,38,1) 66%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(38,38,38,1) 33%, rgba(34,34,34,1) 50%, rgba(38,38,38,1) 66%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+.heading {
+	text-align: center;
+	font-size: 42px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: Calibri;
+}
+
+.name {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	/*font-style: italic;*/
+	font-family: 'Kunstler Script', 'Edwardian Script ITC', 'Monotype Corsiva';
+	color: #ffffff;
+}
+
+.donate {
+	color: #ffffff;
+	font-size: 32px;
+	text-align: center;
+	font-family: calibri;
+}
+
+.pass {
+	font-size: 24px;
+	font-family: calibri;
+	vertical-align: middle;
+	margin: 20px;
+	color: #ffffff;
+	margin-top: 50px;
+}
+
+#slidecontainer {
+    width: 100%;
+	vertical-align: middle;
+	/* padding: 20px; */
+	padding-top: 40px;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.5;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.slider:hover {
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 34px;
+    border-radius: 50%;
+    background: url('images/icon.ico');
+    cursor: pointer;
+}
+
+#ver {
+	font-size: 32px;
+	font-family: 'poor richard', calibri;
+	color: #ffffff;
+	font-weight: bold;
+	/* font-style: italic; */
+	margin: 25px;
+}
+
+.crypt {
+	background-color: #2d2d2d;
+	display: inline-block;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #ffffff;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0px 10px 5px 0px rgba(255, 0, 0, 1);
+}
+.crypt:hover {
+	background-color: #fdcbc6;
+	/* color: #211c1c; */
+	border-color: #000000;
+	cursor: pointer;
+}
+.crypt:active {
+	background-color: #222120;
+	/* color: #ffffff; */
+	border-color: #ffffff;
+	transform: translateY(15px);
+	transition: 0.1s;
+}
+
+.crytext {
+	font-family: calibri;
+	font-size: 24px;
+}
